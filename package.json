@@ -1,5 +1,6 @@
 {
   "name": "portfolio-of-zahra-reihani",
+  "homepage": "https://ZahraR85.github.io/portfolio-of-zahra-reihani",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@iconify-icons/simple-icons": "^1.2.74",
