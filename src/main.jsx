@@ -8,9 +8,9 @@ import "./index.css";
 import "./components/style/Style.css";
 
 createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+  <StrictMode>
     <BrowserRouter basename="/portfolio-of-zahra-reihani">
       <App />
     </BrowserRouter>
-  </React.StrictMode>
+  </StrictMode>
 );
