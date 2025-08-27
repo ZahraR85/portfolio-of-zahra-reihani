@@ -5,11 +5,6 @@ function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isCVDropdownOpen, setIsCVDropdownOpen] = useState(false);
 
-  const resumeFiles = {
-    english: "./resume_english.pdf",
-    german: "./resume_german.pdf",
-  };
-
   return (
     <header className="fixed w-screen border-b-2 xl:max-w-[1380px] border-b-neutral-100 mx-auto bg-white z-20">
       <div className="flex xl:px-20 px-5 xl:py-6 py-3 justify-between items-center">
