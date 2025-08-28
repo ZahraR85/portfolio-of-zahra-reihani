@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { projects } from "../constants/project";
 import Carousel from "./Carousel";
