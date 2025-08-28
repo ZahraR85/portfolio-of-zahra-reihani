@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-import { motion } from "framer-motion";
-
+import { useState } from "react";
 export default function Contact() {
   const [status, setStatus] = useState("idle"); // idle | loading | success | error
 

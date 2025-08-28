@@ -1,7 +1,5 @@
-import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { FaStar } from "react-icons/fa";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -27,16 +25,6 @@ function Introduction() {
 
       {/* Column 2: Text Info */}
       <div className="flex flex-col items-start">
-        {/*  <motion.div
-          variants={container(0)}
-          initial="hidden"
-          animate="visible"
-          className="font-semibold text-lg flex items-center gap-1 mb-2"
-        >
-          <FaStar className="text-yellow-500" />
-          <h1 className="text-neutral-700">Here’s my story</h1>
-        </motion.div> */}
-
         <motion.p
           variants={container(0.2)}
           initial="hidden"
