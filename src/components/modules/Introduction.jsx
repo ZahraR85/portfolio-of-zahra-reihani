@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import profileLittle from "./assets/profileLittle.jpg";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -20,7 +21,7 @@ function Introduction() {
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.9 }}
-        src="src/assets/projects/profileLittle.jpg"
+        src={profileLittle}
         alt="Zahra's Profile"
         className="w-full max-w-xs xl:max-w-[280px] h-auto rounded-2xl object-cover shadow-md"
       />
