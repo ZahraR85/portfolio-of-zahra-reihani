@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import profileLittle from "./assets/profileLittle.jpg";
+import profileLittle from "../../assets/projects/profileLittle.jpg";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
