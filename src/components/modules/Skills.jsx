@@ -21,7 +21,6 @@ import {
 } from "react-icons/si";
 import { FaCode, FaWindows } from "react-icons/fa";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
-import { GrGraphQl } from "react-icons/gr";
 
 const skills = [
   { icon: FaHtml5, label: "HTML5", color: "text-orange-600" },
@@ -33,7 +32,6 @@ const skills = [
   { icon: RiTailwindCssFill, label: "TailwindCSS", color: "text-blue-400" },
   { icon: SiBootstrap, label: "Bootstrap", color: "text-purple-600" },
   { icon: SiMongodb, label: "MongoDB", color: "text-green-600" },
-  /**   { icon: GrGraphQl, label: "GraphQL", color: "text-pink-500" }, */
   { icon: SiExpress, label: "Express.js", color: "text-gray-600" },
   {
     icon: (props) => <Icon icon={mssqlIcon} {...props} />,
