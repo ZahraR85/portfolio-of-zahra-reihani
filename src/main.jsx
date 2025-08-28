@@ -1,15 +1,15 @@
+import React from "react"; // Add this at the top
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 
+import App from "./App.jsx";
 import "./index.css";
 import "./components/style/Style.css";
 
-import { BrowserRouter } from "react-router-dom";
-import App from "./App.jsx";
-
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio-of-zahra-reihani">
       <App />
     </BrowserRouter>
   </StrictMode>

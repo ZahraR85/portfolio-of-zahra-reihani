@@ -1,14 +1,8 @@
-import React, { useState } from "react";
-import { motion } from "framer-motion";
+import { useState } from "react";
 
 function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isCVDropdownOpen, setIsCVDropdownOpen] = useState(false);
-
-  const resumeFiles = {
-    english: "./resume_english.pdf",
-    german: "./resume_german.pdf",
-  };
 
   return (
     <header className="fixed w-screen border-b-2 xl:max-w-[1380px] border-b-neutral-100 mx-auto bg-white z-20">
