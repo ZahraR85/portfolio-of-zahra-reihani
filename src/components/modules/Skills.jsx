@@ -20,7 +20,7 @@ import {
   SiExpress,
 } from "react-icons/si";
 import { FaCode, FaWindows } from "react-icons/fa";
-import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 const skills = [
   { icon: FaHtml5, label: "HTML5", color: "text-orange-600" },

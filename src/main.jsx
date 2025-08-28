@@ -1,4 +1,3 @@
-import React from "react"; // Add this at the top
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
