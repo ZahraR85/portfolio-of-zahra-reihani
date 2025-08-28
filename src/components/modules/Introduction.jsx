@@ -1,3 +1,5 @@
+// eslint-disable-next-line no-unused-vars
+import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
