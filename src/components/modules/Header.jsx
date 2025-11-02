@@ -59,14 +59,14 @@ function Header() {
                 className="absolute right-0 mt-2 w-40 bg-white border rounded shadow-lg z-50"
               >
                 <a
-                  href="./resume.pdf"
+                  href="./Resume.pdf"
                   download
                   className="block px-4 py-2 text-gray-700 hover:bg-purple-100"
                 >
                   English
                 </a>
                 <a
-                  href="./Lebenslauf.pdf"
+                  href="./LebenslaufNew.pdf"
                   download
                   className="block px-4 py-2 text-gray-700 hover:bg-purple-100"
                 >

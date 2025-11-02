@@ -20,12 +20,14 @@ function AboutMe() {
             I’m a passionate and detail-oriented software developer with over 10
             years background in computer engineering and a strong focus on
             building practical, user-friendly web applications. My career began
-            in enterprise systems using SQL and ASP.NET (VB and C#), and has
+            in enterprise systems using <span className="font-bold">SQL </span>
+            and <span className="font-bold">ASP.NET (VB and C#)</span>, and has
             since evolved into full-stack development with modern technologies
-            like React, Node.js, and MongoDB. I enjoy transforming ideas into
-            responsive, clean, and efficient code—with a sharp focus on user
-            experience and maintainability. I thrive in collaborative, agile
-            environments where learning and continuous improvement drive
+            like <span className="font-bold">JavaScript, React, Node.js</span>,
+            and <span className="font-bold">MongoDB</span>. I enjoy transforming
+            ideas into responsive, clean, and efficient code with a sharp focus
+            on user experience and maintainability. I thrive in collaborative,
+            agile environments where learning and continuous improvement drive
             progress.
           </p>
           <p className="mb-4 lg:text-xl text-m leading-8 text-neutral-600 text-justify">

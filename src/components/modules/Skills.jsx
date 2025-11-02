@@ -9,6 +9,7 @@ import {
   FaGithub,
   FaGitAlt,
   FaFigma,
+  FaPython,
 } from "react-icons/fa";
 import { Icon } from "@iconify/react";
 import mssqlIcon from "@iconify-icons/simple-icons/microsoftsqlserver";
@@ -43,6 +44,7 @@ const skills = [
   { icon: FaCode, label: "C#", color: "text-blue-700" },
   { icon: FaGitAlt, label: "Git", color: "text-orange-500" },
   { icon: FaGithub, label: "GitHub", color: "" },
+  { icon: FaPython, label: "Python", color: "text-yellow-600" },
   { icon: FaFigma, label: "Figma", color: "text-orange-600" },
   /**   { icon: RiNextjsFill, label: "Next.js", color: "" }, */
 ];
