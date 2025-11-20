@@ -38,6 +38,9 @@ function Header() {
               <a href="#education">Education</a>
             </li>
             <li className="text-lg font-bold hover:text-purple-600">
+              <a href="#certificates">Certificates</a>
+            </li>
+            <li className="text-lg font-bold hover:text-purple-600">
               <a href="#contact">Contact</a>
             </li>
           </ul>
@@ -66,7 +69,7 @@ function Header() {
                   English
                 </a>
                 <a
-                  href="./LebenslaufNew.pdf"
+                  href="./LebenslaufFull.pdf"
                   download
                   className="block px-4 py-2 text-gray-700 hover:bg-purple-100"
                 >
@@ -135,6 +138,14 @@ function Header() {
               <li className="text-base hover:text-purple-600">
                 <a href="#education" onClick={() => setIsMobileMenuOpen(false)}>
                   Education
+                </a>
+              </li>
+              <li className="text-base hover:text-purple-600">
+                <a
+                  href="#certificates"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Certificates
                 </a>
               </li>
               <li className="text-base hover:text-purple-600">
