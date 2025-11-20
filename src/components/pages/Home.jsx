@@ -7,6 +7,7 @@ import Experience from "../modules/Experience";
 import Education from "../modules/Education";
 import Contact from "../modules/Contact";
 import Footer from "../modules/Footer";
+import Certificates from "../modules/Certificates";
 
 function Home() {
   return (
@@ -35,6 +36,9 @@ function Home() {
 
       <section id="education" className="scroll-mt-28">
         <Education />
+      </section>
+      <section id="certificates" className="scroll-mt-28">
+        <Certificates />
       </section>
 
       <section id="contact" className="scroll-mt-28">
