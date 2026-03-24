@@ -10,6 +10,10 @@ import Responsive from "../../assets/projects/Responsive.png";
 import ShoppingCard from "../../assets/projects/shoppingCard.png";
 import Pokemon_Battle from "../../assets/projects/Pokemon_Battle.png";
 import HomeOfStore from "../../assets/projects/HomeOfStore.jpg";
+import addProductToCart from "../../assets/projects/addProductToCart.jpg";
+import AdminDashboard from "../../assets/projects/AdminDashboard.jpg";
+import FavoritePage from "../../assets/projects/FavoritePage.jpg";
+import ManageProductByAdmin from "../../assets/projects/ManageProductByAdmin.jpg";
 
 const projects = [
   {
@@ -43,7 +47,11 @@ const projects = [
     id: "3",
     name: "Store with react",
     slides: [
-      { img: HomeOfStore, caption: "Home: user can see all products available for purchase by category or search." }
+      { img: HomeOfStore, caption: "HomePage: user can see all products available for purchase by category or search." },
+      { img: addProductToCart, caption: "Product Page: Users can add products to their shopping cart, view the cart contents, and proceed to checkout." },
+      { img: AdminDashboard, caption: "Admin Dashboard: Admins can add new Categories and also new products from here." },
+      { img: ManageProductByAdmin, caption: "Manage Products by Admin: Admins can update product information like price, size, and ... or delete products." },
+      { img: FavoritePage, caption: "Favorite Page: Users can mark products as favorites and view their favorite items on a dedicated page." },
     ],
     desc: "A full-stack E-commerce website with Admin/User authentication. Technologies used: JavaScript, React, MongoDB, TailwindCSS, Html, CSS.",
     url: "https://github.com/ZahraR85/Store",
@@ -52,7 +60,11 @@ const projects = [
     id: "4",
     name: "Store with vue.js",
     slides: [
-      { img: HomeOfStore, caption: "Home: user can see all products available for purchase by category or search." }
+      { img: HomeOfStore, caption: "HomePage: user can see all products available for purchase by category or search." },
+      { img: addProductToCart, caption: "Product Page: Users can add products to their shopping cart, view the cart contents, and proceed to checkout." },
+      { img: AdminDashboard, caption: "Admin Dashboard: Admins can add new Categories and also new products from here." },
+      { img: ManageProductByAdmin, caption: "Manage Products by Admin: Admins can update product information like price, size, and ... or delete products." },
+      { img: FavoritePage, caption: "Favorite Page: Users can mark products as favorites and view their favorite items on a dedicated page." },
     ],
     desc: "A full-stack E-commerce website with Admin/User authentication. Technologies used: JavaScript, Vue.js, MongoDB, TailwindCSS, Html, CSS.",
     url: "https://github.com/ZahraR85/store-with-vue-js",
