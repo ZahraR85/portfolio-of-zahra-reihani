@@ -9,6 +9,7 @@ import Dashboard from "../../assets/projects/dashboard.png";
 import Responsive from "../../assets/projects/Responsive.png";
 import ShoppingCard from "../../assets/projects/shoppingCard.png";
 import Pokemon_Battle from "../../assets/projects/Pokemon_Battle.png";
+import HomeOfStore from "../../assets/projects/HomeOfStore.jpg";
 
 const projects = [
   {
@@ -37,6 +38,24 @@ const projects = [
     ],
     desc: "A fullstack small class project. Technologies used: JavaScript, React, MongoDB, TailwindCSS, Html, CSS.",
     url: "https://github.com/ZahraR85/pokemon-battle",
+  },
+    {
+    id: "3",
+    name: "Store with react",
+    slides: [
+      { img: HomeOfStore, caption: "Home: user can see all products available for purchase by category or search." }
+    ],
+    desc: "A full-stack E-commerce website with Admin/User authentication. Technologies used: JavaScript, React, MongoDB, TailwindCSS, Html, CSS.",
+    url: "https://github.com/ZahraR85/Store",
+  },
+    {
+    id: "4",
+    name: "Store with vue.js",
+    slides: [
+      { img: HomeOfStore, caption: "Home: user can see all products available for purchase by category or search." }
+    ],
+    desc: "A full-stack E-commerce website with Admin/User authentication. Technologies used: JavaScript, Vue.js, MongoDB, TailwindCSS, Html, CSS.",
+    url: "https://github.com/ZahraR85/store-with-vue-js",
   },
 ];
 

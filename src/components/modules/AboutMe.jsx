@@ -18,24 +18,30 @@ function AboutMe() {
           </h4>
           <p className="lg:text-xl text-m mx-auto leading-8 text-neutral-600 text-justify ">
             I’m a passionate and detail-oriented software developer with over 10
-            years background in computer engineering and a strong focus on
-            building practical, user-friendly web applications. My career began
-            in enterprise systems using <span className="font-bold">SQL </span>
-            and <span className="font-bold">ASP.NET (VB and C#)</span>, and has
-            since evolved into full-stack development with modern technologies
-            like <span className="font-bold">JavaScript, React, Node.js</span>,
-            and <span className="font-bold">MongoDB</span>. I enjoy transforming
-            ideas into responsive, clean, and efficient code with a sharp focus
-            on user experience and maintainability. I thrive in collaborative,
-            agile environments where learning and continuous improvement drive
-            progress.
+            years of experience in computer engineering, focused on building
+            practical, user-friendly web applications. I began my career working
+            on enterprise systems using <span className="font-bold">SQL</span>{" "}
+            and <span className="font-bold">ASP.NET (VB and C#)</span>, and
+            later transitioned into full-stack development with modern
+            technologies such as{" "}
+            <span className="font-bold">JavaScript, React, Vue.js</span> and{" "}
+            <span className="font-bold">Node.js</span>, along with{" "}
+            <span className="font-bold">MongoDB</span>. I enjoy turning ideas
+            into clean, efficient, and responsive solutions, with a strong focus
+            on user experience, performance, and maintainability. I thrive in
+            collaborative, agile environments where continuous learning drives
+            growth.
           </p>
+
           <p className="mb-4 lg:text-xl text-m leading-8 text-neutral-600 text-justify">
-            These days, I spend most of my time sharpening my skills with
-            JavaScript, React, and TypeScript. I've also been exploring backend
-            tools like GraphQL and MongoDB, and building full-stack projects
-            with Next.js. This portfolio is part of my journey to challenge
-            myself, explore new tools, and build with curiosity.
+            Currently, I’m focused on strengthening my skills in{" "}
+            <span className="font-bold">TypeScript, and Vue.js</span>, while
+            expanding my backend experience with{" "}
+            <span className="font-bold">MongoDB</span>. I actively build
+            full-stack projects to apply my knowledge in real-world scenarios.
+            This portfolio represents my ongoing journey to explore new
+            technologies, challenge myself, and create meaningful digital
+            experiences.
           </p>
         </motion.div>
       </div>

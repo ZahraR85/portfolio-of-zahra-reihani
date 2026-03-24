@@ -35,7 +35,7 @@ function Experience() {
                 Focused on advancing my skills in{" "}
                 <span className="text-purple-700">Web Developement </span>
                 through an intensive Bootcamp and self-learning (React,
-                TypeScript, Next.js).
+                TypeScript, Vue.js, Next.js).
               </li>
               <li>
                 Additionally, I explored job opportunities to apply my skills in

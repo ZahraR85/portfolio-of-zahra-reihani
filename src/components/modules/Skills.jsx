@@ -19,6 +19,7 @@ import {
   SiSass,
   SiMongodb,
   SiExpress,
+  SiVuedotjs,
 } from "react-icons/si";
 import { FaCode, FaWindows } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -26,12 +27,15 @@ import { RiTailwindCssFill } from "react-icons/ri";
 const skills = [
   { icon: FaHtml5, label: "HTML5", color: "text-orange-600" },
   { icon: FaCss3, label: "CSS3", color: "text-blue-500" },
+  { icon: RiTailwindCssFill, label: "TailwindCSS", color: "text-blue-400" },
+  { icon: SiBootstrap, label: "Bootstrap", color: "text-purple-600" },
   { icon: SiSass, label: "Sass", color: "text-pink-500" },
+  { icon: FaPython, label: "Python", color: "text-yellow-600" },
   { icon: FaJs, label: "JavaScript", color: "text-yellow-400" },
   { icon: FaReact, label: "React", color: "text-blue-400" },
   { icon: SiTypescript, label: "TypeScript", color: "text-blue-700" },
-  { icon: RiTailwindCssFill, label: "TailwindCSS", color: "text-blue-400" },
-  { icon: SiBootstrap, label: "Bootstrap", color: "text-purple-600" },
+  { icon: SiVuedotjs, label: "Vue.js", color: "text-green-500" },
+
   { icon: SiMongodb, label: "MongoDB", color: "text-green-600" },
   { icon: SiExpress, label: "Express.js", color: "text-gray-600" },
   {
@@ -44,9 +48,9 @@ const skills = [
   { icon: FaCode, label: "C#", color: "text-blue-700" },
   { icon: FaGitAlt, label: "Git", color: "text-orange-500" },
   { icon: FaGithub, label: "GitHub", color: "" },
-  { icon: FaPython, label: "Python", color: "text-yellow-600" },
-  { icon: FaFigma, label: "Figma", color: "text-orange-600" },
-  /**   { icon: RiNextjsFill, label: "Next.js", color: "" }, */
+
+  /** { icon: FaFigma, label: "Figma", color: "text-orange-600" },
+  { icon: RiNextjsFill, label: "Next.js", color: "" }, */
 ];
 
 function Skills() {
